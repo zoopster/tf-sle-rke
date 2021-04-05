@@ -1,0 +1,13 @@
+region = "us-east-1"
+workstation_cidr_block = "0.0.0.0/0"
+keypair_name = "jp_keypair"
+eks_version = "1.15"
+cluster_labels = {key = "jp-eks-cluster"}
+hosted_zone_name = "capeks.net"
+chart_values_file = "scf-config-values.yaml"
+kubeconfig_file_path = "env/kubeconfig.eks"
+storage_zones = "us-east-1c"
+stratos_metrics_config_file = "stratos-metrics-config.yaml"
+cap_domain = "capeks.net"
+instance_type = "t4.xlarge"
+email = "jpugh@suse.com"
